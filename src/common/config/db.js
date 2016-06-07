@@ -4,7 +4,7 @@
  * @type {Object}
  */
 export default {
-  type: 'sqlite',
+  type: 'mysql',
   name: 'cicada',
   prefix: 'ci_',
   encoding: 'utf8',
@@ -19,7 +19,7 @@ export default {
       host: '127.0.0.1',
       port: '',
       user: 'root',
-      pwd: 'root'
+      pwd: ''
     },
     sqlite: {
       path: think.ROOT_PATH + '/sqlite'
